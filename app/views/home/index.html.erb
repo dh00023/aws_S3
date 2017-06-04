@@ -1,0 +1,6 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+<!-- 미디어를 받는 경우에는 multipart를 꼭 추가해준다.-->
+<form action="/home/upload" method ="post" enctype="multipart/form-data">
+<input type="file" name="pic" accept="/image/*">
+<input type="submit"> </form>
